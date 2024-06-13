@@ -1,0 +1,351 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+
+}
+
+#logo{
+    max-width: 25%;
+    justify-content: left;
+ }
+ 
+ /* make it a little bit more to the right */
+ #logo h2 {
+     font-size: 1.5em;
+     text-align: center;
+     margin: 0;
+     padding-right: 20%;
+ 
+ }
+ 
+ a{
+     text-decoration: none;
+     color: black;
+ }
+
+    h1 {
+         margin: 0;
+         padding: 10px;
+         border: 1px solid #ccc;
+     }  
+     body{
+        font-family: 'Montserrat';
+    }
+    header{
+        background-image: url("../imagenes/header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Montserrat';
+        display: flex;
+        justify-content: space-between;
+        padding: 2em;
+        /* border: 2px solid cornsilk; */
+    
+    }
+    li{
+        list-style: none;
+    } 
+
+    .menu{
+        display: flex;
+        gap: 1em;
+        justify-content: space-between;
+        margin: 1.5em;
+    }
+
+
+
+.register-container {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.register-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+.register-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+.register-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.register-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d79cb9;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+.register-container button:hover {
+    background-color: #db95bb;
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #E5D7D8;
+  }
+
+
+  footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+footer a {
+    color: white;
+    margin: 0 15px;
+    font-size: 24px;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #dba0be;
+}
+  
+.contenedor-imagenes2 {
+    width: 60%;
+}
+
+img.mascara {
+    height: 24rem;
+}
+.column img {
+    width: 70px;
+    height: auto; 
+    margin-right: 10px; 
+}
+
+.line {
+    border-bottom: 1px solid #e1d9e0; 
+    margin-bottom: 20px; 
+}
+
+.input-box-text {
+    margin-bottom: 10px;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+}
+
+.input-box input {
+    flex: 1; 
+    padding: 8px; 
+    border: 1px solid #d9b6cd; 
+    border-radius: 5px;
+}
+
+.parrafoia p,
+        .parrafoproductos p {
+            font-family:'Montserrat'; 
+            font-size: 18px; 
+            text-align: center; 
+        }
+
+    
+        .contenedor-imagenes1 img {
+            max-width: 100%; 
+            height: auto; 
+            display: block; 
+            margin: 0 auto; 
+            padding-bottom: 20px;
+        }
+
+@media screen and (min-width:1200px){
+    .menu{
+        justify-content: center;
+        gap: 3em;
+
+    }
+     
+     .contenedor {
+         display: flex;
+     }
+    
+     
+     .line {
+         border: 1.5px solid #EEBDC1;
+         width: 100%;
+     }
+         
+     
+     .destacado {
+         margin-left: 2em;
+     }
+     
+     .contenedor-imagenes1 {
+         display: flex;
+         justify-content: center;
+         margin: 20px auto; 
+     }
+
+     .contenedor-imagenes1 img {
+         width: 430px; 
+         height: auto;
+         margin-right: 10px 
+     }
+     .contenedor-imagenes2 {
+         display: flex;
+         justify-content: center; 
+         margin: 20px auto;
+     }
+     
+     .contenedor-imagenes2 img {
+         width: 100px; 
+         height: auto; 
+         margin-right: 10px; 
+     }
+     
+     .tutoriales h1 {
+         display: flex;
+         justify-content: center;
+         margin: 20px auto;
+     }
+     
+     .tutoriales h2 {
+         display: flex;
+         justify-content: left;
+         margin: 20px auto;
+     }
+     
+     .tutoriales iframe {
+         width: 2000px; 
+         height: 800px;
+         display: flex;
+         justify-content: center;
+         margin-right: 100px; 
+         padding: auto;
+         align-items: center;
+     }
+     
+     .tutoriales h3 {
+         display: flex;
+         justify-content: center;
+         margin: 20px auto;
+         font-weight: normal;
+         font-size: 30px;
+     }
+     
+     .footer {
+         background-color: #EEBDC1;
+         color: white;
+         text-align: center;
+         padding: 5em;
+         margin-top: 5em;
+     }
+     
+     .input-box {
+         width: 200px;
+         padding: 10px;
+         border: 2px solid #EEBDC1;
+         border-radius: 20px;
+         outline: none;
+         font-size: 16px;
+         margin-top: 10px;
+         margin-left: 10px;
+     }
+     
+     
+     
+       .input-box-text {
+         margin-top: 20px;
+         margin-left: 15px;
+     
+       }
+     
+       .consultas {
+         display: flex;
+       }
+     
+       .column {
+         flex: 1; 
+         padding: 20px;
+       }
+     
+       .columna4 {
+         float: left;
+         width: 25%;
+         padding: 10px;
+         box-sizing: border-box;
+         margin-top: 20px;
+       }
+       
+       .box {
+         border: 1px solid #ccc;
+         padding: 15px;
+         margin-bottom: 20px;
+         border-radius: 20px;
+         background-color: #E5D7D8;
+       }
+       
+       .box img {
+         max-width: 100%;
+         height: auto;
+       }
+     
+       #userIcon {
+         top: 50px;
+         right: 100%;
+         font-size: 20px; 
+         color: black; 
+       }
+     
+       .contenedor-registro {
+         display: block;
+         margin: 20px auto;
+         padding: 20px;
+         top: 10px;
+         right: 100%;
+         size: 150%;
+         font-size: 20px;
+     }
+     
+     .contenedor-registro h4{
+         margin-bottom: 10px;
+     }
+     
+     .input-box-text-registro {
+         margin-top: 20px;
+         margin-left: 15px;
+         justify-content: center;
+     }
+     
+     .input-box-text-registro h3 {
+         margin-top: 20px;
+         margin-left: 15px;
+         justify-content: center;
+     }
+     
+         .box h2 {
+             font-size: 1.5em;
+             text-align: center;
+             margin: 0;
+             padding-right: 20%;
+         }
+
+        
+}
+    
